@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-ambient-glow {
+  background-image:
+    radial-gradient(
+      39.84% 55.56% at 88% -6%,
+      rgba(0, 79, 255, 0.16) 0%,
+      rgba(0, 0, 0, 0) 62%
+    ),
+    radial-gradient(
+      36.32% 60.85% at -6% 8%,
+      rgba(91, 140, 255, 0.13) 0%,
+      rgba(0, 0, 0, 0) 58%
+    ),
+    radial-gradient(
+      46.87% 66.14% at 60% 120%,
+      rgba(47, 123, 219, 0.1) 0%,
+      rgba(0, 0, 0, 0) 60%
+    );
+}
